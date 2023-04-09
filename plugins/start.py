@@ -83,7 +83,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    text="Powered By Kazukai", url="https://t.me/Kazukai"),
+                    text="Powered By Kazukai", url="https://t.me/Kazukai",
                 ]
             ]
         )
