@@ -83,7 +83,7 @@ async def start_command(client: Client, message: Message):
             buttons = [
         [
             InlineKeyboardButton(
-                "Powered By Kazukai",
+                text = "Powered By Kazukai",
                 url = f"https://t.me/Kazukai")
         ]
     ]
