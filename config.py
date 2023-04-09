@@ -32,10 +32,10 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001805395748"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Heyy {first}\n\nI am Kazukai's File Links Bot! I'll provide you with all the files you need!\nVisit our Network for more content[!](https://telegra.ph/file/6f1cb5224b398bcc824c4.jpg)\n\nReport problems here: @Isuhito")
+START_MSG = os.environ.get("START_MESSAGE", "Heyy {first}\n\nI am *Kazukai's File Links Bot!* I'll provide you with all the files you need!\nVisit our Network for more content!\n\n*Report problems here: @Itsuhito*")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5812608098 1362833231").split()):
+    for x in (os.environ.get("ADMINS", "5020805558").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
