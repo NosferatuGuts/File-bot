@@ -80,13 +80,14 @@ async def start_command(client: Client, message: Message):
                 pass
         return
     else:
-            buttons = [
-        [
-            InlineKeyboardButton(
-                text = "Powered By Kazukai",
-                url = f"https://t.me/Kazukai")
-        ]
-    ]
+        reply_markup = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("😊 About Me", url = "https://t.me/Kazukai"),
+                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                ]
+            ]
+        )
         await message.reply_photo(
             caption = START_MSG.format(
                 first = message.from_user.first_name,
