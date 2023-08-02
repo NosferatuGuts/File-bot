@@ -5,26 +5,26 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6558559833:AAEB_ASFzz7nECtMTXi0xp5__R4ocoOfS6Y")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6674418701:AAHSTFbVnYGdcVpMrbo0j57YFoyN9rT39Uk")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "16844733"))
+APP_ID = int(os.environ.get("APP_ID", "25754715"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1ba2a7c6e2263d934e483760fb837c70")
+API_HASH = os.environ.get("API_HASH", "f01c405c9839592a4882b85f918dacd5")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1989480185"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001712134351"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5020805558"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5286223370"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://utkarshusv:utkarshusv@cluster0.y69m4v1.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "kareuxpremuim")
+DB_NAME = os.environ.get("DATABASE_NAME", "kareux")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001805395748"))
@@ -56,9 +56,9 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5909582134)
+ADMINS.append(5286223370)
 
-LOG_FILE_NAME = "filesharingbot.txt"
+LOG_FILE_NAME = "kareuxbot.txt"
 
 logging.basicConfig(
     level=logging.INFO,
