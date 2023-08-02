@@ -14,7 +14,7 @@ APP_ID = int(os.environ.get("APP_ID", "16844733"))
 API_HASH = os.environ.get("API_HASH", "1ba2a7c6e2263d934e483760fb837c70")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001945592422"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1989480185"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5020805558"))
@@ -32,7 +32,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001805395748"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Heyy {first}\n\nI am Kazukai's File Links Bot! I'll provide you with all the files you need!\nVisit our Network for more content!\n\nReport Problems Here: @Itsuhito")
+START_MSG = os.environ.get("START_MESSAGE", "Heyy {first}\n\nI am kareuxpremuim File Links Bot! I'll provide you with all the files you need!\nVisit our Network for more content!\n\nReport Problems Here: @NosferatuGuts")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "5020805558").split()):
